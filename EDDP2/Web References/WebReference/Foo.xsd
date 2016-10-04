@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://com/" targetNamespace="http://com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SendProdName" type="tns:SendProdName" />
+  <xs:element name="SendProdNameResponse" type="tns:SendProdNameResponse" />
+  <xs:element name="graphAdList" type="tns:graphAdList" />
+  <xs:element name="graphAdListResponse" type="tns:graphAdListResponse" />
+  <xs:element name="graphAvlTree" type="tns:graphAvlTree" />
+  <xs:element name="graphAvlTreeResponse" type="tns:graphAvlTreeResponse" />
+  <xs:element name="receiveMessage" type="tns:receiveMessage" />
+  <xs:element name="receiveMessageResponse" type="tns:receiveMessageResponse" />
+  <xs:element name="removeFromCart" type="tns:removeFromCart" />
+  <xs:element name="removeFromCartResponse" type="tns:removeFromCartResponse" />
+  <xs:element name="removeFromWhish" type="tns:removeFromWhish" />
+  <xs:element name="removeFromWhishResponse" type="tns:removeFromWhishResponse" />
+  <xs:element name="report1" type="tns:report1" />
+  <xs:element name="report1Response" type="tns:report1Response" />
+  <xs:element name="report2" type="tns:report2" />
+  <xs:element name="report2Response" type="tns:report2Response" />
+  <xs:element name="report3" type="tns:report3" />
+  <xs:element name="report3Response" type="tns:report3Response" />
+  <xs:element name="sale" type="tns:sale" />
+  <xs:element name="saleResponse" type="tns:saleResponse" />
+  <xs:element name="searchProduct" type="tns:searchProduct" />
+  <xs:element name="searchProductResponse" type="tns:searchProductResponse" />
+  <xs:element name="sendArbolB" type="tns:sendArbolB" />
+  <xs:element name="sendArbolBResponse" type="tns:sendArbolBResponse" />
+  <xs:element name="sendCarritoGraph" type="tns:sendCarritoGraph" />
+  <xs:element name="sendCarritoGraphResponse" type="tns:sendCarritoGraphResponse" />
+  <xs:element name="sendCartInfo" type="tns:sendCartInfo" />
+  <xs:element name="sendCartInfoResponse" type="tns:sendCartInfoResponse" />
+  <xs:element name="sendHashGraph" type="tns:sendHashGraph" />
+  <xs:element name="sendHashGraphResponse" type="tns:sendHashGraphResponse" />
+  <xs:element name="sendProdBrand" type="tns:sendProdBrand" />
+  <xs:element name="sendProdBrandResponse" type="tns:sendProdBrandResponse" />
+  <xs:element name="sendProdCode" type="tns:sendProdCode" />
+  <xs:element name="sendProdCodeResponse" type="tns:sendProdCodeResponse" />
+  <xs:element name="sendProdImage" type="tns:sendProdImage" />
+  <xs:element name="sendProdImageResponse" type="tns:sendProdImageResponse" />
+  <xs:element name="sendProdPrice" type="tns:sendProdPrice" />
+  <xs:element name="sendProdPriceResponse" type="tns:sendProdPriceResponse" />
+  <xs:element name="sendWhish" type="tns:sendWhish" />
+  <xs:element name="sendWhishGraph" type="tns:sendWhishGraph" />
+  <xs:element name="sendWhishGraphResponse" type="tns:sendWhishGraphResponse" />
+  <xs:element name="sendWhishResponse" type="tns:sendWhishResponse" />
+  <xs:element name="valUser" type="tns:valUser" />
+  <xs:element name="valUserResponse" type="tns:valUserResponse" />
+  <xs:complexType name="sendArbolB">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="sendArbolBResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="removeFromCart">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+      <xs:element minOccurs="0" name="code" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="removeFromCartResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="valUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+      <xs:element minOccurs="0" name="pass" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="valUserResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sale">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="saleResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendProdBrand">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="sendProdBrandResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendWhishGraph">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendWhishGraphResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SendProdName">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="SendProdNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="graphAvlTree">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="graphAvlTreeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendCartInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendCartInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="report3">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fechaIni" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaFin" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="report3Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="report2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fechaIni" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaFin" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="report2Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="receiveMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="receiveMessageResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendProdImage">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="sendProdImageResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="report1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fFecha" type="xs:string" />
+      <xs:element minOccurs="0" name="fValor" type="xs:string" />
+      <xs:element minOccurs="0" name="fusuario" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaIni" type="xs:string" />
+      <xs:element minOccurs="0" name="fechafin" type="xs:string" />
+      <xs:element minOccurs="0" name="valor" type="xs:string" />
+      <xs:element minOccurs="0" name="usuario" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="report1Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendHashGraph">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="sendHashGraphResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchProduct">
+    <xs:sequence>
+      <xs:element name="Code" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchProductResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendWhish">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendWhishResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="removeFromWhish">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+      <xs:element minOccurs="0" name="code" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="removeFromWhishResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendProdCode">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="sendProdCodeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="graphAdList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="graphAdListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendCarritoGraph">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="user" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendCarritoGraphResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sendProdPrice">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="sendProdPriceResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

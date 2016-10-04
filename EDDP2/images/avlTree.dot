@@ -1,0 +1,224 @@
+digraph avl{subgraph {node [shape = record];
+avl3[label = "<izq>|Hilaria\nj8i|<der>"];subgraph {avl3W0[label ="Whislist\nCodigo: 83701815\nNombre : BarrySanders\nMarca :Edge\nPrecio: 163.53\nCantidad: 10"];
+avl3W1[label ="Whislist\nCodigo: 46698666\nNombre : WilliamtheConqueror\nMarca :Bloggs\nPrecio: 176.78\nCantidad: 2"];
+avl3W2[label ="Whislist\nCodigo: 76946337\nNombre : VladimirLenin\nMarca :Conway\nPrecio: 163.37\nCantidad: 6"];
+avl3W0->avl3W1;
+avl3W1->avl3W2;
+}avl3->avl3W0;
+subgraph{ 
+avl3Add0[label =" Direcciones 
+90idsf0ds09fi\nFacturacion : 1\nEnvio :1"];
+}avl3->avl3Add0;
+avl3:izq->avl6;
+avl6[label = "<izq>|Christina\nzd2|<der>"];subgraph{ 
+avl6Add0[label =" Direcciones 
+90jaf09sjfp33\nFacturacion : 0\nEnvio :1"];
+}avl6->avl6Add0;
+avl6:izq->avl12;
+avl12[label = "<izq>|Bobby\nS�nchez|<der>"];avl12:izq->avl20;
+avl20[label = "<izq>|Ann\nReed|<der>"];avl20:izq->avl45;
+avl45[label = "<izq>|Amy\nArnold|<der>"];avl45:izq->avl15;
+avl15[label = "<izq>|Amanda\nWr�ght|<der>"];avl45:der->avl25;
+avl25[label = "<izq>|Andrea\nBrooks|<der>"];avl20:der->avl36;
+avl36[label = "<izq>|Betty\nWright|<der>"];avl36:izq->avl31;
+avl31[label = "<izq>|Anna\nGreen|<der>"];subgraph{ 
+avl31Add0[label =" Direcciones 
+6210DukeParkway\nFacturacion : 0\nEnvio :0"];
+avl31Add1[label =" Direcciones 
+9263AnnamarkAvenue\nFacturacion : 0\nEnvio :0"];
+avl31Add2[label =" Direcciones 
+6210DukeParkway\nFacturacion : 0\nEnvio :0"];
+avl31Add3[label =" Direcciones 
+9263AnnamarkAvenue\nFacturacion : 0\nEnvio :0"];
+avl31Add4[label =" Direcciones 
+6210DukeParkway\nFacturacion : 0\nEnvio :0"];
+avl31Add5[label =" Direcciones 
+9263AnnamarkAvenue\nFacturacion : 0\nEnvio :0"];
+avl31Add0->avl31Add1;
+avl31Add1->avl31Add2;
+avl31Add2->avl31Add3;
+avl31Add3->avl31Add4;
+avl31Add4->avl31Add5;
+}avl31->avl31Add0;
+avl31:der->avl62;
+avl62[label = "<izq>|Arthur\nMorris|<der>"];avl36:der->avl21;
+avl21[label = "<izq>|Beve�ly\nSmith|<der>"];avl21:der->avl65;
+avl65[label = "<izq>|Billy\nRussell|<der>"];avl12:der->avl1;
+avl1[label = "<izq>|Charolette\n5kw|<der>"];subgraph {avl1W0[label ="Whislist\nCodigo: 89471491\nNombre : CYRUStheGREAT\nMarca :Dickens\nPrecio: 10.06\nCantidad: 2"];
+avl1W1[label ="Whislist\nCodigo: 20501371\nNombre : AdamGilchrist\nMarca :Cairns\nPrecio: 10.81\nCantidad: 2"];
+avl1W2[label ="Whislist\nCodigo: 39485203\nNombre : AllenIverson\nMarca :Stacey\nPrecio: 106.04\nCantidad: 4"];
+avl1W3[label ="Whislist\nCodigo: 41680214\nNombre : ElizabethBanks\nMarca :Iles\nPrecio: 191.28\nCantidad: 6"];
+avl1W0->avl1W1;
+avl1W1->avl1W2;
+avl1W2->avl1W3;
+}avl1->avl1W0;
+subgraph{ 
+avl1Add0[label =" Direcciones 
+oij3489983j123\nFacturacion : 0\nEnvio :0"];
+}avl1->avl1Add0;
+avl1:izq->avl8;
+avl8[label = "<izq>|Charles\nf9g|<der>"];subgraph{ 
+avl8Add0[label =" Direcciones 
+45k62iohn123k\nFacturacion : 1\nEnvio :1"];
+}avl8->avl8Add0;
+avl8:izq->avl58;
+avl58[label = "<izq>|Brian\nMorales|<der>"];avl1:der->avl49;
+avl49[label = "<izq>|Cheryl\nPorter|<der>"];avl6:der->avl11;
+avl11[label = "<izq>|Doris\nMy�rs|<der>"];avl11:izq->avl37;
+avl37[label = "<izq>|Debra\nWhite|<der>"];avl37:izq->avl29;
+avl29[label = "<izq>|David\nHarris|<der>"];subgraph{ 
+avl29Add0[label =" Direcciones 
+2JanaTerrace\nFacturacion : 0\nEnvio :0"];
+avl29Add1[label =" Direcciones 
+2JanaTerrace\nFacturacion : 0\nEnvio :0"];
+avl29Add2[label =" Direcciones 
+2JanaTerrace\nFacturacion : 0\nEnvio :0"];
+avl29Add0->avl29Add1;
+avl29Add1->avl29Add2;
+}avl29->avl29Add0;
+avl29:izq->avl7;
+avl7[label = "<izq>|Dannielle\n8pi|<der>"];subgraph{ 
+avl7Add0[label =" Direcciones 
+g89fdj9g8j2\nFacturacion : 1\nEnvio :1"];
+}avl7->avl7Add0;
+avl29:der->avl16;
+avl16[label = "<izq>|Deborah\nR�mos|<der>"];avl37:der->avl34;
+avl34[label = "<izq>|Diana\nSullivan|<der>"];avl34:der->avl50;
+avl50[label = "<izq>|Donald\nChavez|<der>"];avl11:der->avl54;
+avl54[label = "<izq>|Fred\nElliott|<der>"];avl54:izq->avl47;
+avl47[label = "<izq>|Eugene\nHenderson|<der>"];avl47:izq->avl64;
+avl64[label = "<izq>|Elizabeth\nGarza|<der>"];avl64:izq->avl68;
+avl68[label = "<izq>|Earl\nBrooks|<der>"];avl47:der->avl61;
+avl61[label = "<izq>|Frances\nArnold|<der>"];avl54:der->avl5;
+avl5[label = "<izq>|Hee\ns5p|<der>"];subgraph{ 
+avl5Add0[label =" Direcciones 
+9jfa09jf091j2\nFacturacion : 1\nEnvio :1"];
+}avl5->avl5Add0;
+avl5:izq->avl22;
+avl22[label = "<izq>|Glor�a\nKnight|<der>"];avl5:der->avl14;
+avl14[label = "<izq>|Helen\nH�dson|<der>"];avl3:der->avl4;
+avl4[label = "<izq>|Letisha\nea0|<der>"];subgraph{ 
+avl4Add0[label =" Direcciones 
+09isdf901092j\nFacturacion : 1\nEnvio :1"];
+}avl4->avl4Add0;
+avl4:izq->avl23;
+avl23[label = "<izq>|Juli�\nLittle|<der>"];avl23:izq->avl38;
+avl38[label = "<izq>|Jose\nHudson|<der>"];avl38:izq->avl28;
+avl28[label = "<izq>|Janice\nGeorge|<der>"];subgraph{ 
+avl28Add0[label =" Direcciones 
+159GlacierHillAlley\nFacturacion : 0\nEnvio :0"];
+avl28Add1[label =" Direcciones 
+159GlacierHillAlley\nFacturacion : 0\nEnvio :0"];
+avl28Add2[label =" Direcciones 
+159GlacierHillAlley\nFacturacion : 0\nEnvio :0"];
+avl28Add0->avl28Add1;
+avl28Add1->avl28Add2;
+}avl28->avl28Add0;
+avl28:izq->avl30;
+avl30[label = "<izq>|Irene\nReid|<der>"];subgraph{ 
+avl30Add0[label =" Direcciones 
+55040SachtjenWay\nFacturacion : 0\nEnvio :0"];
+avl30Add1[label =" Direcciones 
+55040SachtjenWay\nFacturacion : 0\nEnvio :0"];
+avl30Add2[label =" Direcciones 
+55040SachtjenWay\nFacturacion : 0\nEnvio :0"];
+avl30Add0->avl30Add1;
+avl30Add1->avl30Add2;
+}avl30->avl30Add0;
+avl30:der->avl67;
+avl67[label = "<izq>|James\nRice|<der>"];avl28:der->avl39;
+avl39[label = "<izq>|Jessica\nFuller|<der>"];avl39:izq->avl63;
+avl63[label = "<izq>|Jesse\nBradley|<der>"];avl38:der->avl43;
+avl43[label = "<izq>|Judy\nLopez|<der>"];avl43:izq->avl44;
+avl44[label = "<izq>|Juan\nGrant|<der>"];avl23:der->avl33;
+avl33[label = "<izq>|Kevin\nGriffin|<der>"];subgraph{ 
+avl33Add0[label =" Direcciones 
+499LongviewCrossing\nFacturacion : 0\nEnvio :0"];
+avl33Add1[label =" Direcciones 
+27367LakeViewCrossing\nFacturacion : 1\nEnvio :0"];
+avl33Add2[label =" Direcciones 
+499LongviewCrossing\nFacturacion : 0\nEnvio :0"];
+avl33Add3[label =" Direcciones 
+27367LakeViewCrossing\nFacturacion : 1\nEnvio :0"];
+avl33Add4[label =" Direcciones 
+499LongviewCrossing\nFacturacion : 0\nEnvio :0"];
+avl33Add5[label =" Direcciones 
+27367LakeViewCrossing\nFacturacion : 1\nEnvio :0"];
+avl33Add0->avl33Add1;
+avl33Add1->avl33Add2;
+avl33Add2->avl33Add3;
+avl33Add3->avl33Add4;
+avl33Add4->avl33Add5;
+}avl33->avl33Add0;
+avl33:izq->avl56;
+avl56[label = "<izq>|Kathryn\nRivera|<der>"];avl56:izq->avl55;
+avl55[label = "<izq>|Katherine\nPatterson|<der>"];avl56:der->avl48;
+avl48[label = "<izq>|Kathy\nGraham|<der>"];avl33:der->avl18;
+avl18[label = "<izq>|Kimberly\nFerguson|<der>"];avl18:der->avl59;
+avl59[label = "<izq>|Larry\nRose|<der>"];avl4:der->avl40;
+avl40[label = "<izq>|Robin\nWatkins|<der>"];avl40:izq->avl2;
+avl2[label = "<izq>|Ozie\nu3l|<der>"];subgraph {avl2W0[label ="Whislist\nCodigo: 20060753\nNombre : JohnF.Kennedy\nMarca :Archer\nPrecio: 95.68\nCantidad: 7"];
+avl2W1[label ="Whislist\nCodigo: 95725814\nNombre : GordieHowe\nMarca :Stuart\nPrecio: 7.6\nCantidad: 9"];
+avl2W0->avl2W1;
+}avl2->avl2W0;
+subgraph{ 
+avl2Add0[label =" Direcciones 
+3423oi4j1oij123\nFacturacion : 1\nEnvio :0"];
+}avl2->avl2Add0;
+avl2:izq->avl26;
+avl26[label = "<izq>|Marie\nHall|<der>"];avl26:izq->avl42;
+avl42[label = "<izq>|Linda\nJones|<der>"];avl42:der->avl46;
+avl46[label = "<izq>|Lois\nAlexander|<der>"];avl26:der->avl32;
+avl32[label = "<izq>|Mildred\nWatson|<der>"];subgraph{ 
+avl32Add0[label =" Direcciones 
+301GrayhawkWay\nFacturacion : 1\nEnvio :0"];
+avl32Add1[label =" Direcciones 
+45607HintzeJunction\nFacturacion : 0\nEnvio :0"];
+avl32Add2[label =" Direcciones 
+301GrayhawkWay\nFacturacion : 1\nEnvio :0"];
+avl32Add3[label =" Direcciones 
+45607HintzeJunction\nFacturacion : 0\nEnvio :0"];
+avl32Add4[label =" Direcciones 
+301GrayhawkWay\nFacturacion : 1\nEnvio :0"];
+avl32Add5[label =" Direcciones 
+45607HintzeJunction\nFacturacion : 0\nEnvio :0"];
+avl32Add0->avl32Add1;
+avl32Add1->avl32Add2;
+avl32Add2->avl32Add3;
+avl32Add3->avl32Add4;
+avl32Add4->avl32Add5;
+}avl32->avl32Add0;
+avl32:izq->avl35;
+avl35[label = "<izq>|Martin\nCook|<der>"];avl32:der->avl10;
+avl10[label = "<izq>|Oda\n3hc|<der>"];subgraph{ 
+avl10Add0[label =" Direcciones 
+r12i5198us\nFacturacion : 1\nEnvio :1"];
+}avl10->avl10Add0;
+avl2:der->avl17;
+avl17[label = "<izq>|Rach�l\nMatthews|<der>"];avl17:izq->avl66;
+avl66[label = "<izq>|Philip\nDunn|<der>"];avl17:der->avl52;
+avl52[label = "<izq>|Randy\nCunningham|<der>"];avl40:der->avl19;
+avl19[label = "<izq>|Ryan\nCarr|<der>"];avl19:izq->avl24;
+avl24[label = "<izq>|Ruby\nHowell|<der>"];avl24:izq->avl51;
+avl51[label = "<izq>|Rose\nBlack|<der>"];avl51:izq->avl60;
+avl60[label = "<izq>|Ronald\nDuncan|<der>"];avl24:der->avl57;
+avl57[label = "<izq>|Ruth\nMorris|<der>"];avl19:der->avl9;
+avl9[label = "<izq>|Ulrike\n9qi|<der>"];subgraph{ 
+avl9Add0[label =" Direcciones 
+12ndasdu329\nFacturacion : 0\nEnvio :0"];
+}avl9->avl9Add0;
+avl9:izq->avl27;
+avl27[label = "<izq>|Timothy\nButler|<der>"];subgraph{ 
+avl27Add0[label =" Direcciones 
+229SheridanPoint\nFacturacion : 1\nEnvio :1"];
+avl27Add1[label =" Direcciones 
+229SheridanPoint\nFacturacion : 1\nEnvio :1"];
+avl27Add2[label =" Direcciones 
+229SheridanPoint\nFacturacion : 1\nEnvio :1"];
+avl27Add0->avl27Add1;
+avl27Add1->avl27Add2;
+}avl27->avl27Add0;
+avl27:izq->avl41;
+avl41[label = "<izq>|Sara\nCole|<der>"];avl9:der->avl13;
+avl13[label = "<izq>|Wayne\nG�mez|<der>"];avl13:izq->avl53;
+avl53[label = "<izq>|Wanda\nCunningham|<der>"];}}

@@ -1,0 +1,6 @@
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\bin\EDDP2.dll.config
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\bin\EDDP2.dll
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\bin\EDDP2.pdb
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\obj\Debug\EDDP2.dll
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\obj\Debug\EDDP2.pdb
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\obj\Debug\EDDP2.csprojResolveAssemblyReference.cache

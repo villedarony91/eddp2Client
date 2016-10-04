@@ -1,0 +1,66 @@
+digraph arbolB{
+splines=polyline
+ nodoArbolB366 [shape = record, label= " <f0> | <f1> Factura: 366 \n Fecha: 18/01/2016 \n Total: 946.4 \n Usuario: Hilaria|<f2>| <f3> Factura: 678 \n Fecha: 17/02/2016 \n Total: 1204.89 \n Usuario: Charles|<f4>"]; 
+
+"nodoArbolB366":f0 -> "nodoArbolB201":f2; 
+
+ nodoArbolB366 [shape = record, label= " <f0> | <f1> Factura: 366 \n Fecha: 18/01/2016 \n Total: 946.4 \n Usuario: Hilaria|<f2>| <f3> Factura: 678 \n Fecha: 17/02/2016 \n Total: 1204.89 \n Usuario: Charles|<f4>"]; 
+
+
+ nodoArbolB201 [shape = record, label= " <f0> | <f1> Factura: 201 \n Fecha: 24/05/2016 \n Total: 482.76 \n Usuario: Ozie|<f2>| <f3> Factura: 303 \n Fecha: 02/04/2016 \n Total: 1372.3200000000002 \n Usuario: Letisha|<f4>"]; 
+
+"nodoArbolB201":f1 -> nodoArbolB2010;
+ subgraph cluster_0ArbolB201{
+nodoArbolB2010 [label=" Producto: CYRUStheGREAT \nPrecio: 10.06\n Cantidad: 1"];
+}
+"nodoArbolB201":f3 -> nodoArbolB3030;
+ subgraph cluster_0ArbolB303{
+nodoArbolB3030 [label=" Producto: AllenIverson \nPrecio: 106.04\n Cantidad: 7"];
+}
+"nodoArbolB366":f2 -> "nodoArbolB408":f2; 
+
+ nodoArbolB366 [shape = record, label= " <f0> | <f1> Factura: 366 \n Fecha: 18/01/2016 \n Total: 946.4 \n Usuario: Hilaria|<f2>| <f3> Factura: 678 \n Fecha: 17/02/2016 \n Total: 1204.89 \n Usuario: Charles|<f4>"]; 
+
+
+ nodoArbolB408 [shape = record, label= " <f0> | <f1> Factura: 408 \n Fecha: 26/02/2016 \n Total: 344.19 \n Usuario: Hee|<f2>| <f3> Factura: 499 \n Fecha: 21/01/2016 \n Total: 641.46 \n Usuario: Oda|<f4>| <f5> Factura: 536 \n Fecha: 23/04/2016 \n Total: 653.26 \n Usuario: Charolette|<f6>"]; 
+
+"nodoArbolB408":f1 -> nodoArbolB4080;
+ subgraph cluster_0ArbolB408{
+nodoArbolB4080 [label=" Producto: ElizabethBanks \nPrecio: 191.28\n Cantidad: 2"];
+}
+"nodoArbolB408":f3 -> nodoArbolB4990;
+ subgraph cluster_0ArbolB499{
+nodoArbolB4990 [label=" Producto: VladimirLenin \nPrecio: 163.37\n Cantidad: 4"];
+}
+"nodoArbolB408":f5 -> nodoArbolB5360;
+ subgraph cluster_0ArbolB536{
+nodoArbolB5360 [label=" Producto: AmberTamblyn \nPrecio: 135.2\n Cantidad: 4"];
+}
+"nodoArbolB366":f4 -> "nodoArbolB833":f2; 
+
+ nodoArbolB366 [shape = record, label= " <f0> | <f1> Factura: 366 \n Fecha: 18/01/2016 \n Total: 946.4 \n Usuario: Hilaria|<f2>| <f3> Factura: 678 \n Fecha: 17/02/2016 \n Total: 1204.89 \n Usuario: Charles|<f4>"]; 
+
+
+ nodoArbolB833 [shape = record, label= " <f0> | <f1> Factura: 833 \n Fecha: 22/03/2016 \n Total: 302.59 \n Usuario: Dannielle|<f2>| <f3> Factura: 849 \n Fecha: 27/01/2016 \n Total: 685.69 \n Usuario: Ulrike|<f4>| <f5> Factura: 948 \n Fecha: 07/05/2016 \n Total: 362.40999999999997 \n Usuario: Christina|<f6>"]; 
+
+"nodoArbolB833":f1 -> nodoArbolB8330;
+ subgraph cluster_0ArbolB833{
+nodoArbolB8330 [label=" Producto: GordieHowe \nPrecio: 7.6\n Cantidad: 1"];
+}
+"nodoArbolB833":f3 -> nodoArbolB8490;
+ subgraph cluster_0ArbolB849{
+nodoArbolB8490 [label=" Producto: WilliamtheConqueror \nPrecio: 176.78\n Cantidad: 2"];
+}
+"nodoArbolB833":f5 -> nodoArbolB9480;
+ subgraph cluster_0ArbolB948{
+nodoArbolB9480 [label=" Producto: JohnF.Kennedy \nPrecio: 95.68\n Cantidad: 1"];
+}
+"nodoArbolB366":f1 -> nodoArbolB3660;
+ subgraph cluster_0ArbolB366{
+nodoArbolB3660 [label=" Producto: AdamGilchrist \nPrecio: 10.81\n Cantidad: 6"];
+}
+"nodoArbolB366":f3 -> nodoArbolB6780;
+ subgraph cluster_0ArbolB678{
+nodoArbolB6780 [label=" Producto: BarrySanders \nPrecio: 163.53\n Cantidad: 9"];
+}
+} 

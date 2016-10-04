@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\wnk\Desktop\deplyED2</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin.aspx">
+      <publishTime>07/14/2016 16:01:29</publishTime>
+    </File>
+    <File Include="bin/EDDP2.dll">
+      <publishTime>07/14/2016 21:00:37</publishTime>
+    </File>
+    <File Include="bin/EDDP2.XmlSerializers.dll">
+      <publishTime>07/14/2016 21:00:39</publishTime>
+    </File>
+    <File Include="Cargar Archivo.aspx">
+      <publishTime>07/08/2016 17:31:39</publishTime>
+    </File>
+    <File Include="Carrito.aspx">
+      <publishTime>07/14/2016 20:58:26</publishTime>
+    </File>
+    <File Include="Compra.aspx">
+      <publishTime>07/14/2016 20:58:02</publishTime>
+    </File>
+    <File Include="css/normalize.css">
+      <publishTime>05/07/2016 12:27:52</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>05/07/2016 12:27:52</publishTime>
+    </File>
+    <File Include="home.aspx">
+      <publishTime>07/14/2016 20:59:21</publishTime>
+    </File>
+    <File Include="js/index.js">
+      <publishTime>05/07/2016 12:27:52</publishTime>
+    </File>
+    <File Include="js/prefixfree.min.js">
+      <publishTime>05/07/2016 12:27:52</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>07/13/2016 23:06:28</publishTime>
+    </File>
+    <File Include="Master.master">
+      <publishTime>07/12/2016 15:29:40</publishTime>
+    </File>
+    <File Include="report2.aspx">
+      <publishTime>07/14/2016 18:45:44</publishTime>
+    </File>
+    <File Include="report3.aspx">
+      <publishTime>07/14/2016 18:45:44</publishTime>
+    </File>
+    <File Include="reporte1.aspx">
+      <publishTime>07/14/2016 18:45:44</publishTime>
+    </File>
+    <File Include="reporte2.aspx">
+      <publishTime>07/12/2016 18:48:22</publishTime>
+    </File>
+    <File Include="reporte3.aspx">
+      <publishTime>07/12/2016 18:48:22</publishTime>
+    </File>
+    <File Include="reportes.aspx">
+      <publishTime>07/12/2016 19:09:24</publishTime>
+    </File>
+    <File Include="ShowUserGraph.aspx">
+      <publishTime>07/14/2016 20:59:51</publishTime>
+    </File>
+    <File Include="Web References/WebReference/Reference.map">
+      <publishTime>07/13/2016 15:58:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/14/2016 00:22:25</publishTime>
+    </File>
+    <File Include="WhishList.aspx">
+      <publishTime>07/14/2016 21:00:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Foo" targetNamespace="http://com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://192.168.158.130:8080/Foo/Foo?xsd=1" namespace="http://com/" />
+    </xsd:schema>
+  </types>
+  <message name="receiveMessage">
+    <part name="parameters" element="tns:receiveMessage" />
+  </message>
+  <message name="receiveMessageResponse">
+    <part name="parameters" element="tns:receiveMessageResponse" />
+  </message>
+  <message name="sendCarritoGraph">
+    <part name="parameters" element="tns:sendCarritoGraph" />
+  </message>
+  <message name="sendCarritoGraphResponse">
+    <part name="parameters" element="tns:sendCarritoGraphResponse" />
+  </message>
+  <message name="valUser">
+    <part name="parameters" element="tns:valUser" />
+  </message>
+  <message name="valUserResponse">
+    <part name="parameters" element="tns:valUserResponse" />
+  </message>
+  <message name="sendProdCode">
+    <part name="parameters" element="tns:sendProdCode" />
+  </message>
+  <message name="sendProdCodeResponse">
+    <part name="parameters" element="tns:sendProdCodeResponse" />
+  </message>
+  <message name="SendProdName">
+    <part name="parameters" element="tns:SendProdName" />
+  </message>
+  <message name="SendProdNameResponse">
+    <part name="parameters" element="tns:SendProdNameResponse" />
+  </message>
+  <message name="sendProdBrand">
+    <part name="parameters" element="tns:sendProdBrand" />
+  </message>
+  <message name="sendProdBrandResponse">
+    <part name="parameters" element="tns:sendProdBrandResponse" />
+  </message>
+  <message name="sendProdPrice">
+    <part name="parameters" element="tns:sendProdPrice" />
+  </message>
+  <message name="sendProdPriceResponse">
+    <part name="parameters" element="tns:sendProdPriceResponse" />
+  </message>
+  <message name="sendProdImage">
+    <part name="parameters" element="tns:sendProdImage" />
+  </message>
+  <message name="sendProdImageResponse">
+    <part name="parameters" element="tns:sendProdImageResponse" />
+  </message>
+  <message name="sendWhish">
+    <part name="parameters" element="tns:sendWhish" />
+  </message>
+  <message name="sendWhishResponse">
+    <part name="parameters" element="tns:sendWhishResponse" />
+  </message>
+  <message name="sendCartInfo">
+    <part name="parameters" element="tns:sendCartInfo" />
+  </message>
+  <message name="sendCartInfoResponse">
+    <part name="parameters" element="tns:sendCartInfoResponse" />
+  </message>
+  <message name="removeFromWhish">
+    <part name="parameters" element="tns:removeFromWhish" />
+  </message>
+  <message name="removeFromWhishResponse">
+    <part name="parameters" element="tns:removeFromWhishResponse" />
+  </message>
+  <message name="removeFromCart">
+    <part name="parameters" element="tns:removeFromCart" />
+  </message>
+  <message name="removeFromCartResponse">
+    <part name="parameters" element="tns:removeFromCartResponse" />
+  </message>
+  <message name="sendArbolB">
+    <part name="parameters" element="tns:sendArbolB" />
+  </message>
+  <message name="sendArbolBResponse">
+    <part name="parameters" element="tns:sendArbolBResponse" />
+  </message>
+  <message name="sale">
+    <part name="parameters" element="tns:sale" />
+  </message>
+  <message name="saleResponse">
+    <part name="parameters" element="tns:saleResponse" />
+  </message>
+  <message name="sendHashGraph">
+    <part name="parameters" element="tns:sendHashGraph" />
+  </message>
+  <message name="sendHashGraphResponse">
+    <part name="parameters" element="tns:sendHashGraphResponse" />
+  </message>
+  <message name="report1">
+    <part name="parameters" element="tns:report1" />
+  </message>
+  <message name="report1Response">
+    <part name="parameters" element="tns:report1Response" />
+  </message>
+  <message name="report2">
+    <part name="parameters" element="tns:report2" />
+  </message>
+  <message name="report2Response">
+    <part name="parameters" element="tns:report2Response" />
+  </message>
+  <message name="report3">
+    <part name="parameters" element="tns:report3" />
+  </message>
+  <message name="report3Response">
+    <part name="parameters" element="tns:report3Response" />
+  </message>
+  <message name="graphAvlTree">
+    <part name="parameters" element="tns:graphAvlTree" />
+  </message>
+  <message name="graphAvlTreeResponse">
+    <part name="parameters" element="tns:graphAvlTreeResponse" />
+  </message>
+  <message name="graphAdList">
+    <part name="parameters" element="tns:graphAdList" />
+  </message>
+  <message name="graphAdListResponse">
+    <part name="parameters" element="tns:graphAdListResponse" />
+  </message>
+  <message name="searchProduct">
+    <part name="parameters" element="tns:searchProduct" />
+  </message>
+  <message name="searchProductResponse">
+    <part name="parameters" element="tns:searchProductResponse" />
+  </message>
+  <message name="sendWhishGraph">
+    <part name="parameters" element="tns:sendWhishGraph" />
+  </message>
+  <message name="sendWhishGraphResponse">
+    <part name="parameters" element="tns:sendWhishGraphResponse" />
+  </message>
+  <portType name="Foo">
+    <operation name="receiveMessage">
+      <input wsam:Action="http://com/Foo/receiveMessageRequest" message="tns:receiveMessage" />
+      <output wsam:Action="http://com/Foo/receiveMessageResponse" message="tns:receiveMessageResponse" />
+    </operation>
+    <operation name="sendCarritoGraph">
+      <input wsam:Action="http://com/Foo/sendCarritoGraphRequest" message="tns:sendCarritoGraph" />
+      <output wsam:Action="http://com/Foo/sendCarritoGraphResponse" message="tns:sendCarritoGraphResponse" />
+    </operation>
+    <operation name="valUser">
+      <input wsam:Action="http://com/Foo/valUserRequest" message="tns:valUser" />
+      <output wsam:Action="http://com/Foo/valUserResponse" message="tns:valUserResponse" />
+    </operation>
+    <operation name="sendProdCode">
+      <input wsam:Action="http://com/Foo/sendProdCodeRequest" message="tns:sendProdCode" />
+      <output wsam:Action="http://com/Foo/sendProdCodeResponse" message="tns:sendProdCodeResponse" />
+    </operation>
+    <operation name="SendProdName">
+      <input wsam:Action="http://com/Foo/SendProdNameRequest" message="tns:SendProdName" />
+      <output wsam:Action="http://com/Foo/SendProdNameResponse" message="tns:SendProdNameResponse" />
+    </operation>
+    <operation name="sendProdBrand">
+      <input wsam:Action="http://com/Foo/sendProdBrandRequest" message="tns:sendProdBrand" />
+      <output wsam:Action="http://com/Foo/sendProdBrandResponse" message="tns:sendProdBrandResponse" />
+    </operation>
+    <operation name="sendProdPrice">
+      <input wsam:Action="http://com/Foo/sendProdPriceRequest" message="tns:sendProdPrice" />
+      <output wsam:Action="http://com/Foo/sendProdPriceResponse" message="tns:sendProdPriceResponse" />
+    </operation>
+    <operation name="sendProdImage">
+      <input wsam:Action="http://com/Foo/sendProdImageRequest" message="tns:sendProdImage" />
+      <output wsam:Action="http://com/Foo/sendProdImageResponse" message="tns:sendProdImageResponse" />
+    </operation>
+    <operation name="sendWhish">
+      <input wsam:Action="http://com/Foo/sendWhishRequest" message="tns:sendWhish" />
+      <output wsam:Action="http://com/Foo/sendWhishResponse" message="tns:sendWhishResponse" />
+    </operation>
+    <operation name="sendCartInfo">
+      <input wsam:Action="http://com/Foo/sendCartInfoRequest" message="tns:sendCartInfo" />
+      <output wsam:Action="http://com/Foo/sendCartInfoResponse" message="tns:sendCartInfoResponse" />
+    </operation>
+    <operation name="removeFromWhish">
+      <input wsam:Action="http://com/Foo/removeFromWhishRequest" message="tns:removeFromWhish" />
+      <output wsam:Action="http://com/Foo/removeFromWhishResponse" message="tns:removeFromWhishResponse" />
+    </operation>
+    <operation name="removeFromCart">
+      <input wsam:Action="http://com/Foo/removeFromCartRequest" message="tns:removeFromCart" />
+      <output wsam:Action="http://com/Foo/removeFromCartResponse" message="tns:removeFromCartResponse" />
+    </operation>
+    <operation name="sendArbolB">
+      <input wsam:Action="http://com/Foo/sendArbolBRequest" message="tns:sendArbolB" />
+      <output wsam:Action="http://com/Foo/sendArbolBResponse" message="tns:sendArbolBResponse" />
+    </operation>
+    <operation name="sale">
+      <input wsam:Action="http://com/Foo/saleRequest" message="tns:sale" />
+      <output wsam:Action="http://com/Foo/saleResponse" message="tns:saleResponse" />
+    </operation>
+    <operation name="sendHashGraph">
+      <input wsam:Action="http://com/Foo/sendHashGraphRequest" message="tns:sendHashGraph" />
+      <output wsam:Action="http://com/Foo/sendHashGraphResponse" message="tns:sendHashGraphResponse" />
+    </operation>
+    <operation name="report1">
+      <input wsam:Action="http://com/Foo/report1Request" message="tns:report1" />
+      <output wsam:Action="http://com/Foo/report1Response" message="tns:report1Response" />
+    </operation>
+    <operation name="report2">
+      <input wsam:Action="http://com/Foo/report2Request" message="tns:report2" />
+      <output wsam:Action="http://com/Foo/report2Response" message="tns:report2Response" />
+    </operation>
+    <operation name="report3">
+      <input wsam:Action="http://com/Foo/report3Request" message="tns:report3" />
+      <output wsam:Action="http://com/Foo/report3Response" message="tns:report3Response" />
+    </operation>
+    <operation name="graphAvlTree">
+      <input wsam:Action="http://com/Foo/graphAvlTreeRequest" message="tns:graphAvlTree" />
+      <output wsam:Action="http://com/Foo/graphAvlTreeResponse" message="tns:graphAvlTreeResponse" />
+    </operation>
+    <operation name="graphAdList">
+      <input wsam:Action="http://com/Foo/graphAdListRequest" message="tns:graphAdList" />
+      <output wsam:Action="http://com/Foo/graphAdListResponse" message="tns:graphAdListResponse" />
+    </operation>
+    <operation name="searchProduct">
+      <input wsam:Action="http://com/Foo/searchProductRequest" message="tns:searchProduct" />
+      <output wsam:Action="http://com/Foo/searchProductResponse" message="tns:searchProductResponse" />
+    </operation>
+    <operation name="sendWhishGraph">
+      <input wsam:Action="http://com/Foo/sendWhishGraphRequest" message="tns:sendWhishGraph" />
+      <output wsam:Action="http://com/Foo/sendWhishGraphResponse" message="tns:sendWhishGraphResponse" />
+    </operation>
+  </portType>
+  <binding name="FooPortBinding" type="tns:Foo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="receiveMessage">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendCarritoGraph">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="valUser">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendProdCode">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SendProdName">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendProdBrand">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendProdPrice">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendProdImage">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendWhish">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendCartInfo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="removeFromWhish">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="removeFromCart">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendArbolB">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sale">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendHashGraph">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="report1">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="report2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="report3">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="graphAvlTree">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="graphAdList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchProduct">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sendWhishGraph">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Foo">
+    <port name="FooPort" binding="tns:FooPortBinding">
+      <soap:address location="http://192.168.158.130:8080/Foo/Foo" />
+    </port>
+  </service>
+</definitions>

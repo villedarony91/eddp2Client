@@ -1,0 +1,7 @@
+digraph g { 
+nodo0[label ="17088402\nNombre : Fowler\nMarca :Brian\nPrecio: 1.49\nCantidad: 1"];
+nodo1[label ="5972\nNombre : Shaw\nMarca :Donna\nPrecio: 777.99\nCantidad: 1"];
+nodo2[label ="46366\nNombre : Larson\nMarca :Louise\nPrecio: 6.42\nCantidad: 1"];
+nodo0->nodo1;
+nodo1->nodo2;
+}

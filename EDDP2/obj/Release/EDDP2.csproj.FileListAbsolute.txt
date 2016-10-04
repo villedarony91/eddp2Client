@@ -1,0 +1,8 @@
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\bin\EDDP2.dll.config
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\bin\EDDP2.dll
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\bin\EDDP2.XmlSerializers.dll
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\bin\EDDP2.pdb
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\obj\Release\EDDP2.csprojResolveAssemblyReference.cache
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\obj\Release\EDDP2.dll
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\obj\Release\EDDP2.pdb
+C:\Users\wnk\documents\visual studio 2013\Projects\EDDP2\EDDP2\obj\Release\EDDP2.XmlSerializers.dll
